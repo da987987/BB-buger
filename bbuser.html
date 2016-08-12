@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>嗶嗶堡-會員中心</title>
+    </head>
+    <style>
+        html,body{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+
+        }
+        .gallery{
+            width: 100%;
+            height: 100%;
+        }
+        .color{
+            position: relative;
+            padding: 0;
+            margin: 0;
+            width:1980px;
+            height: 1200px;
+            background-color: rgba(255, 255, 255,0.5);
+            position:fixed;
+            z-index: 99;
+        }
+        .bgImage{
+
+        }
+        .bgImage img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .wBox{
+            padding-top:calc((100vh - 90px)/2);
+            position: relative;
+            z-index: 100;
+            text-align: center;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+
+
+        })
+    </script>
+    <body>
+        <div class="gallery">
+            <div class="bgImage">
+                <div class="color"></div>
+                <div><img src="/imger/bacon-1238243_1920.jpg" alt=""></div>
+            </div>
+            <div class="wBox">
+                <div class="formBox">
+                    <form action="">
+                        <div class="heading">登入會員</div>
+                        <p>帳號：<input type="text"></p>
+                        <p>密碼：<input type="password"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
